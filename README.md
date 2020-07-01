@@ -4,9 +4,10 @@ X11 application which:
 * Displays the colors
 * Prints to standard output, the names of all the colors sucessfully read and other information such as the total number of colors that it tried to parse versus how many were actually valid
 
-# Installing
-`git clone https://github.com/AwkwardBanana/0xColor` to clone the repo
-`sudo make install && sudo make clean`
+# Installing && Uninstalling
+`git clone https://github.com/AwkwardBanana/0xColor` to clone the repo <br>
+`sudo make install && sudo make clean` to install <br>
+`sudo make uninstall` to uninstall
 
 ## Usage
 The color names are read through the **standard input**, and cant be **piped** to **0xColor** or **redirected** into **0xColor** <br>
